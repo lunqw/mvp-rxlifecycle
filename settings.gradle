@@ -1,2 +1,2 @@
-include ':pvm-rx'
+include ':pvm-rx', ':sample'
 rootProject.name = 'pvm-rx-parent'
