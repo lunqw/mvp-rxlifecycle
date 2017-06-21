@@ -39,5 +39,5 @@ ext.deps = [
         espressocore: 'com.android.support.test.espresso:espresso-core:2.2.2',
         appcompat   : 'com.android.support:appcompat-v7:25.1.0',
         rxlifecycle : 'com.trello:rxlifecycle:1.0',
-        pvmbase     : 'com.github.lunqw.pvm:pvm-base:0.2'
+        mvpbase     : 'com.github.lunqw.mvp:mvp-base:0.5'
 ]

@@ -1,0 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile deps.rxlifecycle
+    compile deps.mvpbase
+}
