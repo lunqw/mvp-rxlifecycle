@@ -15,7 +15,7 @@ import rx.subjects.BehaviorSubject;
  * Created by lunqingwen on 2017/3/23.
  */
 
-public class RxPresenter implements Presenter, LifecycleProvider<PresenterEvent> {
+public abstract class RxPresenter implements Presenter, LifecycleProvider<PresenterEvent> {
     private final BehaviorSubject<PresenterEvent> mLifecycleSubject = BehaviorSubject.create();
 
     @Override
